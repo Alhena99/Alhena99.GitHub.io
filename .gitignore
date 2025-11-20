@@ -15,4 +15,4 @@ yarn-error.log*
 pnpm-debug.log*
 
 # private config
-.env
+.envnode_modules/
