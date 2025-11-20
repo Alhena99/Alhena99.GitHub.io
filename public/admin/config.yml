@@ -1,9 +1,9 @@
 backend:
   name: github
   branch: main
-  repo: Spr-Aachen/Twilight # 请替换为您的 GitHub 仓库
-  site_domain: twilight.spr-aachen.com # 请替换为您的域名
-  base_url: https://twilight.spr-aachen.com  # 请替换为您的 URL
+  repo: Alhena99/Alhena99.GitHub.io # 请替换为您的 GitHub 仓库
+  site_domain: xinyuewu.top # 请替换为您的域名
+  base_url: https://xinyuewu.top  # 请替换为您的 URL
   auth_endpoint: oauth # OAuth 路由由集成提供
 
 # 媒体文件配置
