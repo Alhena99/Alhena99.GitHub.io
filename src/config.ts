@@ -28,7 +28,7 @@ const SITE_TIMEZONE = 8; // from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
 	siteURL: "https://xinyuewu.top/", // 请替换为你的站点 URL 并以斜杠结尾
 	title: "心月屋",
-	subtitle: "Blog Template",
+	subtitle: "Alhena",
 
 	lang: SITE_LANG, // 自动检测的浏览器语言
 	translate: {
@@ -46,7 +46,7 @@ export const siteConfig: SiteConfig = {
 		hue: 255, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: false, // 对访问者隐藏主题色选择器
 	},
-    defaultTheme: "dark", // "system" 跟随系统， "light" 浅色， "dark" 深色
+    defaultTheme: "system", // "system" 跟随系统， "light" 浅色， "dark" 深色
 
 	// 壁纸配置：支持 fullscreen（全屏壁纸）、banner（横幅壁纸）、none（纯色背景）三种模式
 	wallpaper: {
@@ -84,9 +84,9 @@ export const siteConfig: SiteConfig = {
 		banner: {
 			homeText: {
 				enable: true, // 在主页显示自定义文本
-				title: "Twilight", // 主页横幅主标题
+				title: "心月屋", // 主页横幅主标题
 				subtitle: [
-					"Illuminate Our Paths",
+					"游戏/二次元/兴趣内容",
 				],
 				typewriter: {
 					enable: true, // 启用副标题打字机效果
@@ -139,7 +139,7 @@ export const siteConfig: SiteConfig = {
 	// 字体配置
 	font: {
 		zenMaruGothic: {
-			enable: true, // 启用全局圆体适合日语和英语，对中文适配一般
+			enable: false, // 启用全局圆体适合日语和英语，对中文适配一般
 		},
 		hanalei: {
 			enable: false, // 启用 Hanalei 字体作为全局字体，适合中文去使用
@@ -168,65 +168,67 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		// 支持多级菜单
 		{
-			name: "Links",
-			url: "/links/",
-			icon: "material-symbols:link",
-			children: [
-				{
-					name: "GitHub",
-					url: "https://github.com/Example",
-					external: true,
-					icon: "fa6-brands:github",
-				},
-				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/Example",
-					external: true,
-					icon: "fa6-brands:bilibili",
-				},
-			],
-		},
-		{
-			name: "My",
+			name: "我的",
 			url: "/content/",
 			icon: "material-symbols:person",
 			children: [
 				LinkPreset.Anime,
 				LinkPreset.Diary,
 				{
-					name: "Gallery",
+					name: "相册",
 					url: "/albums/",
 					icon: "material-symbols:photo-library",
 				},
 			],
 		},
 		{
-			name: "About",
-			url: "/content/",
-			icon: "material-symbols:info",
-			children: [LinkPreset.About, LinkPreset.Friends],
+			name: "链接",
+			url: "/links/",
+			icon: "material-symbols:link",
+			children: [
+				{
+					name: "GitHub",
+					url: "https://github.com/Alhena99",
+					external: true,
+					icon: "fa6-brands:github",
+				},
+				{
+					name: "Bilibili",
+					url: "https://space.bilibili.com/3632315462846639",
+					external: true,
+					icon: "fa6-brands:bilibili",
+				},
+			],
 		},
+		
+		/* //这段代码未生效
 		{
-			name: "Others",
+			name: "其他",
 			url: "#",
 			icon: "material-symbols:more-horiz",
 			children: [
 				{
-					name: "Projects",
+					name: "项目",
 					url: "/projects/",
 					icon: "material-symbols:work",
 				},
 				{
-					name: "Skills",
+					name: "技能",
 					url: "/skills/",
 					icon: "material-symbols:psychology",
 				},
 				{
-					name: "Timeline",
+					name: "时间线",
 					url: "/timeline/",
 					icon: "material-symbols:timeline",
 				},
 			],
+		},
+		*/
+		{
+			name: "关于",
+			url: "/about/",
+			icon: "material-symbols:info",
 		},
 	],
 };
@@ -234,9 +236,14 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Twilight",
-	bio: "Hi",
+	name: "Alhena",
+	bio: "这里是Alhena",
 	links: [
+		{
+      		name: "Bilibli",                // 链接名称
+      		icon: "fa6-brands:bilibili",    // 图标
+      		url: "https://space.bilibili.com/3632315462846639", // 链接地址
+    },
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
@@ -247,7 +254,7 @@ export const profileConfig: ProfileConfig = {
 
 
 export const licenseConfig: LicenseConfig = {
-	enable: true,
+	enable: false,
 	name: "CC BY-NC-SA 4.0",
 	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 };
@@ -269,12 +276,12 @@ export const commentConfig: CommentConfig = {
 
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "Announcement", // 公告标题
-	content: "Welcome to my blog!", // 公告内容
+	title: "公告", // 公告标题
+	content: "这是公告内容，可点击详情", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
-		text: "Learn More", // 链接文本
+		text: "详情", // 链接文本
 		url: "/about/", // 链接 URL
 		external: false, // 内部链接
 	},
@@ -282,7 +289,7 @@ export const announcementConfig: AnnouncementConfig = {
 
 
 export const musicPlayerConfig: MusicPlayerConfig = {
-	enable: true, // 启用音乐播放器功能
+	enable: false, // 启用音乐播放器功能
 };
 
 
@@ -427,7 +434,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 
 
 export const particleConfig: ParticleConfig = {
-	enable: true, // 是否启动粒子特效
+	enable: false, // 是否启动粒子特效
 	particleNum: 12, // 粒子数量
 	limitTimes: -1, // 粒子越界限制次数，-1为无限循环
 	size: {
