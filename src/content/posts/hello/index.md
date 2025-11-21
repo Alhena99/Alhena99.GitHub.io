@@ -1,16 +1,18 @@
 ---
-title: Encryption Example
-published: 2020-02-02
-description: This is an article for testing the page encryption feature
-encrypted: true
-pinned: false
-password: "123456"
-tags: [Encryption]
-category: Examples
+title: Guide for Blog Template
+published: 2001-10-02
+description: "How to use this blog template."
+image: "./cover.webp"
+pinned: true
+tags: []
+category: Guides
+draft: false
+series: "Twilight"
 ---
 
+hello 这是更改
 
-This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
+Tip: For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
 
 
 ## Front-matter of Posts
@@ -18,12 +20,13 @@ This blog template is built with [Astro](https://astro.build/). For the things t
 ```yaml
 ---
 title: My First Blog Post
-published: 2023-09-09
+published: 2020-02-02
 description: This is the first post of my new Astro blog.
-image: ./cover.jpg
+image: ./cover.webp
 tags: [Foo, Bar]
 category: Front-end
 draft: false
+series: "Twilight"
 ---
 ```
 
