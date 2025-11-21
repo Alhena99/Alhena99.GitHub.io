@@ -2,7 +2,7 @@
 title: 测试文章
 published: 2025-10-29
 description: "这是测试文章"
-image: ""
+
 author: "Alhena"
 
 pinned: false
