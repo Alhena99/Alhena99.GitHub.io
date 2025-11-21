@@ -1,9 +1,9 @@
 backend:
   name: github
   branch: main
-  repo: Alhena99/Alhena99.GitHub.io # 请替换为您的 GitHub 仓库
-  site_domain: xinyuewu.top # 请替换为您的域名
-  base_url: https://xinyuewu.top  # 请替换为您的 URL
+  repo: your-username/your-repo-name # 请替换为您的 GitHub 仓库
+  site_domain: your-domain.com # 请替换为您的域名
+  base_url: https://your-domain.com  # 请替换为您的 URL
   auth_endpoint: oauth # OAuth 路由由集成提供
 
 # 媒体文件配置
