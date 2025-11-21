@@ -1,1 +1,1 @@
-这是friend页面123345566wdwddw111
+这里是friend页面。

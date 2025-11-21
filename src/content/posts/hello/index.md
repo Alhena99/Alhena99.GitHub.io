@@ -40,7 +40,7 @@ category：文章分类
 * 更多可访问[**关于我们**](https://xinyuewu.top/about/)页面。
 * 本站使用的版权内容均为版权人所有，本站并不享有。本站引用内容均会标明来源。
 
-<img src="/src/content/posts/hello/ditu.jpg" alt="底图" style="width: 100%;" />
+![底图](ditu.jpg)
 
 > 2025-10-29 v1.2 更新
 
