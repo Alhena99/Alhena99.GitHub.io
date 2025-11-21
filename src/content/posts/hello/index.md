@@ -1,59 +1,47 @@
 ---
-title: Guide for Blog Template
-published: 2001-10-02
-description: "How to use this blog template."
-image: "./cover.webp"
+title: 前言
+published: 2025-10-29
+description: "欢迎来到心月屋"
+image: "./banner.webp"
+author: "Alhena"
+
 pinned: true
+draft: false
+
 tags: []
-category: Guides
-draft: false
-series: "Twilight"
+category: 公告
+
 ---
+<!-- 注释：
 
-hello 这是更改
+title：文章标题（必须）
+published：发布日期，格式为YYYY-MM-DD
+description：文章描述（必须）
+image：封面图。删掉这一行就没有封面图
+author: 作者
 
-Tip: For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
+pinned：是否置顶
+draft：是否为草稿
 
+tags：文章标签数组
+category：文章分类
 
-## Front-matter of Posts
+ -->
 
-```yaml
----
-title: My First Blog Post
-published: 2020-02-02
-description: This is the first post of my new Astro blog.
-image: ./cover.webp
-tags: [Foo, Bar]
-category: Front-end
-draft: false
-series: "Twilight"
----
-```
+## 欢迎来到心月屋！
+欢迎来到[**xinyuewu.top**](xinyuewu.top)网站，本站主要内容为游戏/二次元/兴趣内容等分享。
 
+## 使用指南
+* PC端和手机端均可在顶部栏便捷访问本站内容，进行内容搜索，设置显示主题等。
+* 本站设有公告，文章分类和标签分类，随笔，图库等功能。
+* 其他相关可访问[**GitHub仓库**](https://github.com/Alhena99/Alhena99.GitHub.io/)提交issus。
 
-| Attribute     | Description                                                                                                                                                                                                 |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `title`       | The title of the post.                                                                                                                                                                                      |
-| `published`   | The date the post was published.                                                                                                                                                                            |
-| `pinned`      | Whether this post is pinned to the top of the post list.                                                                                                                                                   |
-| `description` | A short description of the post. Displayed on index page.                                                                                                                                                   |
-| `image`       | The cover image path of the post.<br/>1. Start with `http://` or `https://`: Use web image<br/>2. Start with `/`: For image in `public` dir<br/>3. With none of the prefixes: Relative to the markdown file |
-| `tags`        | The tags of the post.                                                                                                                                                                                       |
-| `category`    | The category of the post.                                                                                                                                                                                   |
-| `licenseName` | The license name for the post content.                                                                                                                                                                      |
-| `author`      | The author of the post.                                                                                                                                                                                     |
-| `sourceLink`  | The source link or reference for the post content.                                                                                                                                                          |
-| `draft`       | If this post is still a draft, which won't be displayed.                                                                                                                                                    |
+## 其他
+* 更多可访问[**关于我们**](https://xinyuewu.top/about/)页面。
+* 本站使用的版权内容均为版权人所有，本站并不享有。本站引用内容均会标明来源。
+
+<img src="/src/content/posts/hello/ditu.jpg" alt="底图" style="width: 100%;" />
+
+> 2025-10-29 v1.2 更新
 
 
-## Where to Place the Post Files
-
-Your post files should be placed in `src/content/posts/` directory. You can also create sub-directories to better organize your posts and assets.
-
-```
-src/content/posts/
-├── post-1.md
-└── post-2/
-    ├── cover.png
-    └── index.md
-```

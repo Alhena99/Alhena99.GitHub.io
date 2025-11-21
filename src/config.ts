@@ -277,8 +277,8 @@ export const commentConfig: CommentConfig = {
 
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "公告", // 公告标题
-	content: "这是公告内容，可点击详情", // 公告内容
+	title: "25-10-29公告", // 公告标题
+	content: "已知问题：联通网络访问可能访问缓慢，如遇此情况请更换网络或挂梯访问。更多点击下方查看详情喵。", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
