@@ -149,8 +149,9 @@ export const siteConfig: SiteConfig = {
 	showLastModified: true, // 控制“上次编辑”卡片显示的开关
 
 	bangumi: {
-		userId: "your-bangumi-id", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+		userId: "alhena99", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
 	},
+	
 };
 
 
@@ -173,7 +174,7 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:person",
 			children: [
 				LinkPreset.Anime,
-				LinkPreset.Diary,
+				//LinkPreset.Diary,  //已隐藏日记页面
 				{
 					name: "相册",
 					url: "/albums/",
@@ -278,7 +279,7 @@ export const commentConfig: CommentConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "25-10-29公告", // 公告标题
-	content: "已知问题：联通网络访问可能访问缓慢，如遇此情况请更换网络或挂梯访问。更多点击下方查看详情喵。", // 公告内容
+	content: "更新了一些内容，更多点击下方查看详情喵。", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接

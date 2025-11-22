@@ -33,14 +33,15 @@ category：文章分类
 
 ## 使用指南
 * PC端和手机端均可在顶部栏便捷访问本站内容，进行内容搜索，设置显示主题等。
-* 本站设有公告，文章分类和标签分类，随笔，图库等功能。
-* 其他相关可访问[**GitHub仓库**](https://github.com/Alhena99/Alhena99.GitHub.io/)提交issus。
+* 查看公告/相册/追番，分类/标签阅读，访问社媒平台账号等。
 
 ## 其他
 * 更多可访问[**关于我们**](https://xinyuewu.top/about/)页面。
 * 本站使用的版权内容均为版权人所有，本站并不享有。本站引用内容均会标明来源。
 
-![底图](ditu.jpg)
+<center>
+  <img src="\src\content\posts\hello\ditu.jpg" alt="底图1" width="100%">
+</center>
 
 > 2025-10-29 v1.2 更新
 
